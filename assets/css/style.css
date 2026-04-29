@@ -1,0 +1,28 @@
+/* --- El Diseño del Cabaret Noir --- */
+
+body {
+    background-color: #000000; /* Negro puro para la oscuridad del local */
+    color: #e0e0e0; /* Un gris claro elegante para que el texto se lea bien sin deslumbrar */
+    font-family: 'Montserrat', sans-serif; /* Letra moderna y limpia para los párrafos */
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif; /* Letra clásica y decadente de cabaret para los títulos */
+    color: #d4af37; /* Dorado apagado para los letreros principales */
+    text-align: center;
+    font-weight: normal;
+}
+
+strong {
+    color: #800000; /* Terciopelo Burdeos para resaltar las palabras importantes */
+}
+
+.cabaret-contenedor {
+    max-width: 800px; /* El ancho del escenario para que no se desparrame por la pantalla */
+    margin: 0 auto; /* Esto centra el escenario perfectamente */
+    border: 1px solid #222222; /* Un marco muy sutil, casi invisible */
+    padding: 40px;
+    box-shadow: 0 0 25px rgba(128, 0, 0, 0.3); /* Un leve resplandor burdeos alrededor del escenario */
+}
